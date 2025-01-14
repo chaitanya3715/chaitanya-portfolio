@@ -19,7 +19,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
-      image: 'src/assets/project1.png',
+      image: 'https://asset.cloudinary.com/dhbojrw6q/35c52cf0d4fa8b9daeecc1af76d7498f',
     },
     {
       title: 'Project 2',
@@ -27,7 +27,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Socket.io','Express.js'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/CodeCollab',
-      image: 'src/assets/project2.png',
+      image: 'https://asset.cloudinary.com/dhbojrw6q/96a925dcfc74ebdc0325d34a3598a748',
     },
     // Add more projects as needed
   ];
@@ -105,7 +105,7 @@ export default function Home() {
 
               />
               <img
-                src="./src/assets/pic.png"
+                src="https://asset.cloudinary.com/dhbojrw6q/62db40d39ab8da566ed5c57ce3ec91a7"
                 alt="Profile"
                 className="relative rounded-full w-full h-full object-cover shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
