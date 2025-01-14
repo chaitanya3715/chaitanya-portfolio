@@ -9,7 +9,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
-      image: 'https://asset.cloudinary.com/dhbojrw6q/35c52cf0d4fa8b9daeecc1af76d7498f',
+      image: 'src/assets/project1.png',
     },
     {
       title: 'Project 2',
@@ -17,7 +17,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Socket.io','Express.js'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/CodeCollab',
-      image: 'https://asset.cloudinary.com/dhbojrw6q/96a925dcfc74ebdc0325d34a3598a748',
+      image: 'src/assets/project2.png',
     },
     {
       title: 'Project 3',
@@ -25,7 +25,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express', 'SupaSpace'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/yourusername/project1',
-      image: 'https://asset.cloudinary.com/dhbojrw6q/dc1b8c5bea897c79d22ca33c48fc66f4',
+      image: 'src/assets/project3.png',
     },
     {
       title: 'Project 4',
@@ -33,7 +33,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/Docker-containerized-',
-      image: 'https://asset.cloudinary.com/dhbojrw6q/1e2d481259119f2308f49a54ee95c8f4',
+      image: 'src/assets/project4.png',
     },
     // {
     //   title: 'Project 5',
