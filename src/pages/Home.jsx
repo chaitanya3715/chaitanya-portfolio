@@ -2,6 +2,10 @@ import { motion } from 'framer-motion';
 import SocialLinks from '../components/SocialLinks';
 import ProjectCard from '../components/ProjectCard';
 import { useEffect, useState } from 'react';
+import pic from '../assets/pic.jpg';
+import project1 from '../assets/project1.jpg'
+import project2 from '../assets/project2.jpg'
+
 
 
 export default function Home() {
@@ -19,7 +23,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
-      image: 'public/static/images/project1.jpg',
+      image: project1,
     },
     {
       title: 'Project 2',
@@ -27,7 +31,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Socket.io','Express.js'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/CodeCollab',
-      image: 'public/static/images/project2.jpg',
+      image: project2,
     },
     // Add more projects as needed
   ];
@@ -96,7 +100,7 @@ export default function Home() {
 
               />
               <img
-                src="public/static/images/pic.jpg"
+                src={pic}
                 alt="Profile"
                 className="relative rounded-full w-full h-full object-cover shadow-lg transform hover:scale-105 transition-transform duration-300"
               />

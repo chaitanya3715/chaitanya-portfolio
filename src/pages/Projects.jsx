@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
+import project1 from '../assets/project1.jpg'
+import project2 from '../assets/project2.jpg'
+import project3 from '../assets/project3.jpg'
+import project4 from '../assets/project4.jpg'
 
 export default function Projects() {
   const projects = [
@@ -9,7 +13,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
-      image: 'public/static/images/project1.jpg',
+      image: project1,
     },
     {
       title: 'Project 2',
@@ -17,7 +21,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Socket.io','Express.js'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/CodeCollab',
-      image: 'public/static/images/project2.jpg',
+      image: project2,
     },
     {
       title: 'Project 3',
@@ -25,7 +29,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express', 'SupaSpace'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/yourusername/project1',
-      image: 'public/static/images/project3.jpg',
+      image: project3,
     },
     {
       title: 'Project 4',
@@ -33,7 +37,7 @@ export default function Projects() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/Docker-containerized-',
-      image: 'public/static/images/project4.jpg',
+      image: project4,
     },
     // {
     //   title: 'Project 5',
