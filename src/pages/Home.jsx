@@ -112,7 +112,10 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h2>WELCOME TO MY PAGE !!</h2> <br />
+            <h2 className="text-gray-900 dark:text-white">
+                 WELCOME TO MY PAGE !!
+            </h2>
+            <br />
             <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">
               Hi, I'm Chaitanya Meshram
             </h1>

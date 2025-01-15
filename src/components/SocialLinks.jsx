@@ -1,12 +1,14 @@
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { SiThreads } from "react-icons/si";
+import { FaXTwitter } from 'react-icons/fa6'
 
 export default function SocialLinks() {
   const socialLinks = [
     { icon: FaGithub, url: 'https://github.com/chaitanya3715', label: 'GitHub' },
     { icon: FaLinkedin, url: 'https://www.linkedin.com/in/chaitanya-meshram-6a1513261/', label: 'LinkedIn' },
+   
     { icon: FaInstagram, url: 'https://www.instagram.com/chaitanyameshram_07/', label: 'Instagram' },
-    { icon: FaTwitter, url: 'https://x.com/CAMeshram_07', label: 'Twitter' },
+    {icon: FaXTwitter, url: 'https://x.com/CAMeshram_07', label: 'X' },
     { icon: SiThreads, url: 'https://www.threads.net/@chaitanyameshram_07', label: 'Threads' },
     { icon: FaEnvelope, url: 'mailto:chaitanyameshram07@gmail.com', label: 'Email' },
   ];
