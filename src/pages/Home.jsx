@@ -19,7 +19,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
-      image: 'src/assets/project1.png',
+      image: 'public/static/images/project1.png',
     },
     {
       title: 'Project 2',
@@ -27,7 +27,7 @@ export default function Home() {
       techStack: ['React', 'Node.js', 'Socket.io','Express.js'],
       demoUrl: 'https://project1.example.com',
       repoUrl: 'https://github.com/chaitanya3715/CodeCollab',
-      image: 'src/assets/project2.png',
+      image: 'public/static/images/project2.png',
     },
     // Add more projects as needed
   ];
@@ -65,15 +65,6 @@ export default function Home() {
           >
             <div className="relative w-80 h-80 mx-auto">
               <motion.div
-                // className="absolute inset-0 bg-primary rounded-full"
-                // animate={{
-                //   scale: [1, 1.1, 1],
-                // }}
-                // transition={{
-                //   duration: 2,
-                //   repeat: Infinity,
-                //   ease: "easeInOut"
-                // }}
               className="absolute inset-0 rounded-full"
               animate={{
                 scale: [1, 1.1, 1], // Pulsing effect with expansion
@@ -105,7 +96,7 @@ export default function Home() {
 
               />
               <img
-                src="src/assets/pic.png"
+                src="public/static/images/pic.png"
                 alt="Profile"
                 className="relative rounded-full w-full h-full object-cover shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
