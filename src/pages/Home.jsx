@@ -21,7 +21,7 @@ export default function Home() {
       title: 'Project 1',
       description: 'A full-stack Cloud Based Freelancing Platform.',
       techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-      demoUrl: 'https://project1.example.com',
+      demoUrl: 'https://cloud-based-freelancing-platform.onrender.com',
       repoUrl: 'https://github.com/chaitanya3715/cloud-based-Freelancing-Platform',
       image: project1,
     },
